@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> TP </title>
+        <link rel="stylesheet" href="assets/styles/style.css"/>
+        <script src="assets/js/res/angular.min.js"></script>
+
+        <script src="assets/js/app.js"></script>
+    </head>
+    <body ng-app="tp">
+        <div ng-controller="main" class="content">
+            <div id="popup-play" ng-show="<%= popup %>"><div id="info" ng-show="<%= info %> != ''"><%= info%></div><div id="play" ng-click="play()">Jouer</div></div>
+            <h1 class="title">Bienvenue dans mon jeu</h1>
+            <div class="underline"></div>
+            <h2 class="credits">Crédits : <span ng-class="<%= credits%> >= 10 ? 'good' : 'bad'"><%= credits%>/20</span></h2>
+            <h2 class="credits">Longueur : <span><%= eword.length %></span></h2>
+            <br><br>
+
+            <input type="text" id="myEword" value="<%= eword %>" hidden/>
+
+            <br><br><br><br>
+
+            <div class="label-lang">Français : <%= fword.toUpperCase() %></div>
+            <br><br>
+            <div class="label-lang">Anglais  : {{displayWord}}<div class="valider" ng-click="checkword()">Valider</div></div>
+            <br><br>
+            <div class="clavier">
+                <div class="touche" ng-repeat="letter in letters" ng-click="tap(letter)">{{letter}}</div>
+            </div>
+
+
+
+        </div>
+    </body>
+</html>

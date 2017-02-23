@@ -1,0 +1,119 @@
+body
+{
+    font-family: "Trebuchet Ms";
+}
+
+.content
+{
+    width: 100%;
+    height: 100%;
+}
+
+.title
+{
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
+.underline
+{
+    border: 2px solid #007acc;
+    width: 200px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.credits
+{
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-left: 40px;
+}
+
+.bad
+{
+    color: red;
+}
+
+.good
+{
+    color: #007acc;
+}
+
+.label-lang
+{
+    font-size: 45px;
+}
+
+#popup-play
+{
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+#play
+{
+  position: relative;
+  background: white;
+  width: 130px;
+  height: 40px;
+  z-index: 7;
+  font-size: 35px;
+  padding: 20px;
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  margin: auto;
+  vertical-align: center;
+  margin-top: 20%;
+}
+
+#info
+{
+  position: relative;
+  z-index: 7;
+  font-size: 25px;
+  padding: 20px;
+  color: blue;
+  text-align: center;
+  margin: auto;
+  vertical-align: center;
+}
+
+
+.touche
+{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #007acc;
+}
+
+.clavier
+{
+    position: relative;
+    border: 1px solid #007acc;
+    margin: auto;
+    width: 620px;
+    padding-top: 5px;
+    text-align: center;
+    z-index: 0;
+}
+
+.valider
+{
+    display: inline;
+    color: white;
+    background-color: #007acc;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
