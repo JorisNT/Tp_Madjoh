@@ -11,7 +11,7 @@ J'utilise NodeJS (Expressjs) et pour la vue Ejs et AngularJs.
 
 2 - Ouvrir le terminal et se positionner à la racine du répertoire
 
-3 - lancer la commande : npm install
+3 - installer toutes les dépendances avec la commande : npm install
 
 4 - Dans le fichier connection.js (chemin : js/services/connection.js)
 	se trouve les informations de connexion à la base de donnée.
@@ -23,6 +23,7 @@ J'utilise NodeJS (Expressjs) et pour la vue Ejs et AngularJs.
 
 7 - Dans un navigateur, renseigner le nom du serveur et le port en question.
 	Pour ma part c'est : localhost:5200
+	Vous pouvez modifier le port tout en bas du fichier server.js 
 
 ##FONCTIONNEMENT
 
